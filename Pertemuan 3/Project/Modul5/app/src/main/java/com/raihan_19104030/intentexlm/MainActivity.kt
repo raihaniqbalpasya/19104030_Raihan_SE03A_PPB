@@ -56,6 +56,11 @@ class MainActivity : AppCompatActivity() {
                 val intent = Intent(Intent.ACTION_CALL)
                 intent.data = Uri.parse("tel:" + phoneNumber)
                 startActivity(intent)
+
+            }
+
+            btnFragment.setOnClickListener {
+                startActivity(Intent(this@MainActivity, Practice5ForFragmentActivity::class.java))
             }
         }
         setupPermissions()

@@ -2,8 +2,6 @@ package com.raihan_19104030.intentexlm
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.LayoutInflater
-import com.raihan_19104030.intentexlm.databinding.ActivityMainBinding
 import com.raihan_19104030.intentexlm.databinding.ActivityPractice5ReadDataBinding
 
 class Practice5ReadDataActivity : AppCompatActivity() {
@@ -22,6 +20,4 @@ class Practice5ReadDataActivity : AppCompatActivity() {
     companion object {
         const val EXTRA_PRODI = "extra_prodi"
     }
-
-
 }
